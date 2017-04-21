@@ -1,0 +1,71 @@
+.flexslider
+	{
+	width:100%;
+	position:relative;
+	margin:0;
+	padding:0;
+	}
+	
+.slides
+	{
+	overflow:hidden;
+	margin:0;
+	padding:0;
+	}
+	
+.slides img
+	{
+	width:100%;
+	margin:0;
+	padding:0;
+	}
+
+.slides,
+.flex-control-nav,
+.flex-direction-nav
+	{
+	margin:0;
+	padding:0;
+	list-style:none;
+	}
+
+.flex-control-nav
+	{
+	width:100%;
+	text-align:center;
+	}
+
+.flex-control-nav li
+	{
+	display:inline-block;
+	margin: 6px;
+	}
+	
+.flex-control-nav li a
+	{
+	display: block;
+	background: #888888;
+	width: 10px;
+	height: 10px;
+	border-radius: 10px;
+	text-indent: -9999px;
+	}
+
+.flex-control-nav li a:hover
+	{
+	background-color:#2e2e2e;
+	}
+
+.flex-control-nav li a.flex-active
+	{
+	background-color:#2e2e2e;
+ 	}
+
+.flex-direction-nav a
+	{
+	display: block;
+	text-decoration:none;
+	position:absolute;
+	top:50%;	
+	/*las flechas quedan escondidas detras xke no me salen ^^U*/
+	}

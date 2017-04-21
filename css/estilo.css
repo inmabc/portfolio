@@ -1,0 +1,358 @@
+@font-face 
+	{
+	fon-family: 'Agency FB';
+	src:url('../fuentes/AGENCYR.TTF');
+	}
+
+body
+	{
+	background-image: url(../images/fondo.jpg);
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	color: #dfdfdf;
+	font-size: 14px;
+	margin: 0;
+	/* [disabled]padding:0; */
+	}
+
+.contenedor
+	{
+	width:800px;
+	margin-top: 5px !important;
+	margin:0 auto;
+	padding:0;
+	}
+
+.header
+	{
+	width:800px;
+	margin:0;
+	padding:0;
+	}
+	
+.contenedor2
+	{
+	float:left;
+	width: 800px;
+	margin: 0;
+	padding: 0;
+	padding-top: 10px !important;
+	background-image:url(../images/fondo2.png);
+	}
+
+/*BOTONERA PRINCIPAL*/
+.menu
+	{
+	float: left;
+	width: 800px;
+	margin: 0;
+	padding: 0;
+	}
+
+.menu ul
+	{
+	float: left;
+	width: 800px;
+	margin: 0;
+	margin-left:50px !important;
+	padding: 0;
+	list-style: none;
+	}
+
+.menu li
+	{
+	float: left;
+	margin: 0;
+	margin-right:100px !important;/*2em*/
+	padding: 0;
+	}
+
+.menu a
+	{
+	float: left;
+	margin: 0;
+	padding: 0;
+	border:none;
+	text-decoration:none;
+	text-align:center;
+	font-size:31px;
+	font-family:"Agency FB", "Arial Narrow", Tahoma;
+	color:#9F9F9F;
+	font-weight:bold;
+	}
+		
+.menu a:hover
+	{
+	text-decoration:underline; 
+	}
+
+.seleccion
+	{
+	float: left;
+	margin: 0;
+	padding: 0;
+	border:none;
+	text-decoration:none;
+	text-align:center;
+	font-size:31px;
+	font-family:"Agency FB", "Arial Narrow", Tahoma;
+	color:#e8286b;
+	font-weight:600;
+	}
+/*FIN BOTONERA PRINCIPAL*/
+
+.contenido
+	{
+	float:left;
+	width:700px;
+	margin:0;
+	padding:30px 50px;
+	}
+
+.inicio
+	{
+	margin:0;
+	padding:0;
+	text-align:center;
+	}	
+
+.contenido img
+	{
+	float:left;
+	margin:0;
+	padding:0;
+	margin-right:50px;
+	}
+
+.contenido p
+	{
+	margin:0;
+	padding:0;
+	padding-bottom:10px !important;
+	}
+
+.contenido a
+	{
+	color:#e8286b;
+	text-decoration:none;
+	}
+
+.contenido a:hover
+	{
+	color:#e8286b;
+	text-decoration:underline;
+	}
+
+.bportofio
+	{
+	margin:0;
+	padding:0;
+	margin-top:10px !important;
+	}
+
+/*****BOTONERA PARA EL PORTFOLIO*****/
+	
+.botonera
+	{
+	float: left;
+	width: 140px;
+	margin: 0;
+	padding: 0 50px 20px 0;
+	border-right:2px #e8286b dashed;
+	}
+
+.botonera ul
+	{
+	float: left;
+	width: 140px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	}
+	
+.botonera li
+	{
+	margin: 0;
+	padding: 0;
+	}
+
+.botonera a
+	{
+	float: left;
+	margin: 0;
+	padding: 0;
+	margin-bottom:20px !important;
+	border:none;
+	text-decoration:none;
+	font-size:24px;
+	font-family:"Agency FB", "Arial Narrow", Tahoma;
+	color:#9F9F9F;
+	font-weight:bold;
+	}
+	
+.logo
+	{
+	float: left;
+	margin: 0;
+	padding: 0;
+	margin-bottom:20px !important;
+	border:none;
+	text-decoration:none;
+	font-size:24px;
+	font-family:"Agency FB", "Arial Narrow", Tahoma;
+	color:#ff210f;
+	font-weight:bold;
+	text-decoration:underline; 
+	}
+
+.logo:hover
+	{
+	color:#ff210f !important;
+	}
+
+.ilu
+	{
+	float: left;
+	margin: 0;
+	padding: 0;
+	margin-bottom:20px !important;
+	border:none;
+	text-decoration:none;
+	font-size:24px;
+	font-family:"Agency FB", "Arial Narrow", Tahoma;
+	color:#ff9900;
+	font-weight:bold;
+	text-decoration:underline; 
+	}
+
+.ilu:hover
+	{
+	color:#ff9900 !important; 
+	}
+
+.web
+	{
+	float: left;
+	margin: 0;
+	padding: 0;
+	margin-bottom:20px !important;
+	border:none;
+	text-decoration:none;
+	font-size:24px;
+	font-family:"Agency FB", "Arial Narrow", Tahoma;
+	color:#f7ec23;
+	font-weight:bold;
+	text-decoration:underline; 
+	}
+	
+.web:hover
+	{
+	color:#f7ec23 !important; 
+	}
+
+.montaje
+	{
+	float: left;
+	margin: 0;
+	padding: 0;
+	margin-bottom:20px !important;
+	border:none;
+	text-decoration:none;
+	font-size:24px;
+	font-family:"Agency FB", "Arial Narrow", Tahoma;
+	color:#5ee724;
+	font-weight:bold;
+	text-decoration:underline; 
+	}	
+
+.montaje:hover
+	{
+	color:#5ee724 !important; 
+	}	
+
+.fotos
+	{
+	float: left;
+	margin: 0;
+	padding: 0;
+	margin-bottom:20px !important;
+	border:none;
+	text-decoration:none;
+	font-size:24px;
+	font-family:"Agency FB", "Arial Narrow", Tahoma;
+	color:#1747c1;
+	font-weight:bold;
+	text-decoration:underline; 
+	}
+
+.fotos:hover
+	{
+	color:#1747c1 !important; 
+	}
+
+.bbc
+	{
+	float: left;
+	margin: 0;
+	padding: 0;
+	margin-bottom:20px !important;
+	border:none;
+	text-decoration:none;
+	font-size:24px;
+	font-family:"Agency FB", "Arial Narrow", Tahoma;
+	color:#9d30c0;
+	font-weight:bold;
+	text-decoration:underline; 
+	}
+
+.bbc:hover
+	{
+	color:#9d30c0 !important;
+	}
+
+/*****FIN BOTONERA PARA EL PORTFOLIO*****/
+
+.galeria
+	{
+	float:left;
+	margin:0;
+	padding:0;
+	}
+
+.galeria ul
+	{
+	float: left;
+	margin: 0;
+	margin-left: 50px;
+	padding: 0;
+	list-style: none;
+	}
+
+.galeria li
+	{
+	margin: 0 0 20px 0;
+	padding:0;
+	height:100px;
+	width: 450px;
+	}
+
+.galeria img
+	{
+	margin: 0 20px 0 0;
+	padding:0;
+	}
+
+.animacion
+	{
+	float:left;
+	margin:25px 100px 52px 100px;
+	padding:0;
+	}
+
+.firma
+	{
+	float:left;
+	margin:0;
+	padding:0;
+	background-image:url(../images/fondo2.png);
+	text-align:center;
+	}
